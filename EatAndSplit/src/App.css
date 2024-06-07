@@ -1,0 +1,98 @@
+.friendImage {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.App {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar {
+    width: 40%;
+    margin: 10px;
+}
+
+.friendlist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.FormSplitBill{
+    margin: 10px 30px;
+    padding: 10px;
+    background-color: rgb(248, 227, 198);
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.image{
+    height: auto;
+    width: auto;
+}
+.status{
+    width: 100%;
+}
+
+.just{
+    display: flex;
+    flex-direction:column;
+}
+
+button{
+    height: 35px;
+    width: 75px;
+    padding: 2px ;
+    border-radius: 10px;
+    border: 2px solid gray;
+    background-color: rgb(246, 164, 63);
+}
+
+input{
+    padding: 2px ;
+    margin: 3px 5px;
+    font-size: 12px;
+    text-align: center;
+ 
+}
+
+.addFriend{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    background-color: antiquewhite;
+}
+
+.addfriend{
+    float: right;
+}
+
+.gr{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 18px;
+}
+
+/* .form-split-bill{
+    width: 100%;
+} */
+
+
+@media only screen and (max-width: 600px) 
+{
+    .sidebar {
+        width: 100%;
+        margin: 15px;
+    }
+    .FormSplitBill{
+        text-align: center;
+        width: 100%;
+    }
+}
